@@ -12,8 +12,16 @@ socket.on("error", () => {
     alert("Hubo un error")
 })
 
-$("#submit").click(createProduct);
-$("#submit-chat").click(sendMessage);
+$("#form-product").submit( e => {
+    console.log("caca")
+    e.preventDefault();
+    createProduct()
+})
+$("#form-chat").submit( e => {
+    console.log("pis")
+    e.preventDefault();
+    sendMessage()
+});
 
 function createProduct() {
     let product = {
