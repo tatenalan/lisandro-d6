@@ -1,0 +1,2 @@
+Yo creo que de los tres motores el que mas me gusta es EJS, ya que me permite escribir codigo puro de JS en la plantilla. Aunque handlebars me parece tambien una buena opcion.
+Por ultimo pug tiene una estructura muy simple pero al no conocerla y no estar acostumbrado lo hace mas complicado.

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Pepsi",
+    "price": 25,
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/pepsi-512.png",
+    "id": 1
+  },
+  {
+    "title": "Coca-Cola",
+    "price": 30,
+    "thumbnail": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/cocacola-512.png",
+    "id": 2
+  },
+  {
+    "title": "Manaos",
+    "price": 15,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_manga-512.png",
+    "id": 3
+  },
+  {
+    "title": "Manaos red berry",
+    "price": 150,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/kitchen-and-food-2/44/strawberry-512.png",
+    "id": 4
+  },
+  {
+    "id": 5,
+    "title": "",
+    "price": 0,
+    "thumbnail": ""
+  }
+]

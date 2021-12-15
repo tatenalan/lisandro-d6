@@ -1,0 +1,30 @@
+
+          {{#if productList}}
+            <h5 class="">Lista de productos</h5>
+            <br>
+            <table class="table bg-white">
+                <thead>
+                  <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Thumbnail</th>
+                  </tr>
+                </thead>
+                <tbody id="table">
+                    {{#each productList}}
+                      <tr>
+                        <th scope="row">{{this.id}}</th>
+                        <td>{{this.title}}</td>
+                        <td>${{this.price}}</td>
+                        <td><img style="width:50px;" src="{{this.thumbnail}}" alt=""></td>
+                      </tr>
+                     {{/each}}
+                </tbody>
+            </table>
+
+          {{else}}
+              <div class="alert alert-danger" role="alert">
+                No se han encontrado productos
+              </div>
+          {{/if}}

@@ -1,0 +1,19 @@
+<div class="mr-auto bg-light p-5">
+            <h5>Centro de Mensajes</h5>
+
+            <input name="email" id="emailInput" class="form-control" placeholder="Ingrese su Mail">
+
+            <br>
+
+            <div id="messages">
+                {{#each messages}}
+                      <span id="email">{{this.email}}</span>
+                      <span id="date">[{{this.date}}]</span>
+                      <span id="data">: {{this.data}}</span><br>
+                {{/each}}
+            </div>
+            <br>
+
+            <input id="dataInput" class="form-control w-25 d-inline" placeholder="Ingrese tu Mensaje">
+            <button class="btn btn-primary w-25 d-inline " id="submit-chat" type="submit">Enviar</button>
+</div>
